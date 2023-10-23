@@ -10,6 +10,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { download, resume } from "../assets";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -26,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[70%] h-[70%] object-contain rounded-full"
           />
         </div>
       }
@@ -59,12 +60,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
+        <p className={`${styles.sectionSubText} text-center`}>Experience</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Work</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
@@ -76,6 +73,20 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
+      </div>
+
+      <div className="w-fit mx-auto mt-8 text-black font-semibold text-lg">
+        <a
+          href={resume}
+          download="vivek-vats-resume"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="flex justify-between items-center green-pink-gradient px-6 py-3 rounded-[10px]">
+            <img src={download} alt="download sign" className="w-8 h-8 mr-5" />
+            <span>Download Resume</span>
+          </button>
+        </a>
       </div>
     </>
   );

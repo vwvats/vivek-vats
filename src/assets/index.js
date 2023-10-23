@@ -1,62 +1,85 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backend.svg";
+import mobile from "./mobile.svg";
+import frontend from "./frontend.svg";
+import blockchain from "./blockchain.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import download from "./download.svg";
+import gitlab from "./gitlab.svg";
+import phone from "./phone.svg";
+import mail from "./mail.svg";
+import live from "./radio.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
+import logo from "./logo.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import typescript from "./tech/typescript.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import mui from "./tech/mui.svg";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import nodejs from "./tech/nodejs.png";
+import mongodb from "./tech/mongodb.png";
+import graphql from "./tech/graphql.png";
+import jest from "./tech/jest.png";
+import cypress from "./tech/cypress.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import component from "./company/component.jpeg";
+import tripadvisor from "./company/tripadvisor.png";
+import yogami from "./company/yogami.jpeg";
+import whatfix from "./company/whatfix.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import threadsClone from "./projects/threads-clone.webp";
+import dribbleClone from "./projects/dribble-clone.gif";
+import dalleClone from "./projects/dalle-clone.webp";
+import kickstarter from "./projects/kickstarter.gif";
+import shirts3d from "./projects/3d-shirts.webp";
+import jobHuntsman from "./projects/job-huntsman.png";
+
+import resume from "./vivek-vats-resume.pdf";
 
 export {
   logo,
   backend,
-  creator,
+  blockchain,
   mobile,
-  web,
+  frontend,
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
+  download,
   javascript,
-  mongodb,
-  nodejs,
+  typescript,
   reactjs,
   redux,
+  mui,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  nodejs,
+  mongodb,
+  graphql,
+  jest,
+  cypress,
+  component,
+  tripadvisor,
+  yogami,
+  whatfix,
   carrent,
   jobit,
   tripguide,
+  phone,
+  mail,
+  gitlab,
+  resume,
+  live,
+  threadsClone,
+  dalleClone,
+  dribbleClone,
+  kickstarter,
+  shirts3d,
+  jobHuntsman,
 };

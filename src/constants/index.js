@@ -1,28 +1,30 @@
 import {
+  frontend,
   mobile,
   backend,
-  creator,
-  web,
+  blockchain,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
+  mui,
   tailwind,
+  threejs,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  graphql,
+  jest,
+  cypress,
+  tripadvisor,
+  whatfix,
+  component,
+  yogami,
+  threadsClone,
+  dribbleClone,
+  dalleClone,
+  kickstarter,
+  shirts3d,
+  jobHuntsman,
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +37,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,32 +48,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Frontend Development",
+    icon: frontend,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Blockchain Development",
+    icon: blockchain,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -77,16 +75,24 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "Material UI",
+    icon: mui,
+  },
+  {
+    name: "Tailwind",
     icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
   },
   {
     name: "Node JS",
@@ -97,169 +103,224 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "GraphQL",
+    icon: graphql,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Jest",
+    icon: jest,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Cypress",
+    icon: cypress,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Engineer",
+    company_name: "Component.Fi",
+    icon: component,
+    iconBg: "#000",
+    date: "Sep 2022 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the frontend development of ‘Blueprint’ - a simulation platform for user-coded DeFi trading strategies.",
+      "Planned, developed, and deployed a custom IDE that gives users a full-fledged Python environment in their web browsers.",
+      "Integrated REST/gRPC micro-services and Ethereum Smart Contracts to simulate trading strategy results.",
+      "Visualized strategy result simulations using frontend charting libraries (Charts/D3).",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Engineer",
+    company_name: "Tripadvisor",
+    icon: tripadvisor,
+    iconBg: "#000",
+    date: "Feb 2021 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with UX Designers and Product Managers to ship features on the Vacation Rental vertical.",
+      "Worked with ‘Lithium’, Tripadvisor's in house SSR framework built on React with GraphQL as the querying language.",
+      "Led bug hunting and resilience testing sessions on children platforms of Tripadvisor such as Holiday Lettings and Flipkey.",
+      "Prepared reports and participated in monthly product strategy & review meetings.",
+      "Mentored juniors for performance and productivity.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Engineer",
+    company_name: "Yogami.Fit",
+    icon: yogami,
+    iconBg: "#000",
+    date: "Aug 2019 - Jan 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected, developed, and deployed several iterations of the cross platform mobile app using React Native.",
+      "Built multiple features on the React web frontend. Also planned and executed its migration to Next.js & TypeScript.",
+      "Integrated & streamlined user analytics to monitor product usage and user journey.",
+      "Oversaw web & mobile deployment pipelines, shipped bugfixes, and refactored codebases.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Engineer",
+    company_name: "Whatfix",
+    icon: whatfix,
+    iconBg: "#000",
+    date: "Mar 2018 - Jul 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and deployed a PWA as proof of concept to supplant an existing product.",
+      "Reviewed the web frontend for accessibility & UX concerns and spearheaded changes.",
+      "Wrote unit and integration tests for porting the Flask backend from Python 2 to 3.",
+      "Delivered multiple features across the stack.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Threads Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Essential functionalities clone of Meta's social media platform. Create and comment on threads, create or join communities, search for threads or users, customize profile, and receive activities notifications.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: threadsClone,
+    repoLink: "",
+    liveLink: "",
   },
   {
-    name: "Job IT",
+    name: "Dribbble Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Essential functionalities clone of Dribbble. CRUD functionality for projects which are then displayed on your portfolio. Filter and Browse other users' portfolios and projects. Receive project recommendations.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Grafbase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "JWT",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dribbleClone,
+    repoLink: "",
+    liveLink: "",
   },
   {
-    name: "Trip Guide",
+    name: "Dall-E Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Image generation tool powered by Open AI. Genrate images using text phrases or use a random text prompt from a list of prewritten phrases. Publish the image on a public 'Community Showcase' page.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: dalleClone,
+    repoLink: "",
+    liveLink: "",
+  },
+  {
+    name: "Web3 Kickstarer",
+    description:
+      "Crowdfunding paltform except it's on the Ethereum blockchain. Log in with Metamask, view all fundraising campaigns on the chain, create your own campaign, or donate ETH to one of the existing ones.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Thirdweb",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: kickstarter,
+    repoLink: "",
+    liveLink: "",
+  },
+  {
+    name: "3DT-Shirt",
+    description:
+      "Customize a 3D t-shirt model. Choose a color and upload your own logo or texture. Or use text prompts to generate logos and textures with the integrated AI tool. Download after finishing customization.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: shirts3d,
+    repoLink: "",
+    liveLink: "",
+  },
+  {
+    name: "Job Huntsman",
+    description:
+      "A mobile app that fetches developer jobs from leading platforms and displays them with search and pagination functionalities. Performant, intuitive, and built with an elegant UI/UX.",
+    tags: [
+      {
+        name: "ReactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RapidAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobHuntsman,
+    repoLink: "",
+    liveLink: "",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
