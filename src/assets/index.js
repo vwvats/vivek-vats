@@ -29,9 +29,6 @@ import tripadvisor from "./company/tripadvisor.png";
 import yogami from "./company/yogami.jpeg";
 import whatfix from "./company/whatfix.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import threadsClone from "./projects/threads-clone.webp";
 import dribbleClone from "./projects/dribble-clone.gif";
 import dalleClone from "./projects/dalle-clone.webp";
@@ -66,9 +63,6 @@ export {
   tripadvisor,
   yogami,
   whatfix,
-  carrent,
-  jobit,
-  tripguide,
   phone,
   mail,
   gitlab,
