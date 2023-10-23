@@ -2,7 +2,6 @@ import backend from "./backend.svg";
 import mobile from "./mobile.svg";
 import frontend from "./frontend.svg";
 import blockchain from "./blockchain.svg";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import download from "./download.svg";
@@ -48,7 +47,6 @@ export {
   blockchain,
   mobile,
   frontend,
-  github,
   menu,
   close,
   download,
