@@ -190,10 +190,14 @@ const projects = [
         name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "TypeScript",
+        color: "orange-text-gradient",
+      },
     ],
     image: threadsClone,
-    repoLink: "",
-    liveLink: "",
+    repoLink: "#",
+    liveLink: "#",
   },
   {
     name: "Dribbble Clone",
@@ -213,18 +217,18 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "JWT",
+        name: "TypeScript",
         color: "orange-text-gradient",
       },
     ],
     image: dribbleClone,
-    repoLink: "",
-    liveLink: "",
+    repoLink: "#",
+    liveLink: "#",
   },
   {
     name: "Dall-E Clone",
     description:
-      "Image generation tool powered by Open AI. Genrate images using text phrases or use a random text prompt from a list of prewritten phrases. Publish the image on a public 'Community Showcase' page.",
+      "Image generation tool powered by Open AI. Genrate photos with text phrases or click 'Suprise Me' to choose a random prompt. Share generated images on the public 'Community Showcase' page.",
     tags: [
       {
         name: "React",
@@ -244,13 +248,13 @@ const projects = [
       },
     ],
     image: dalleClone,
-    repoLink: "",
-    liveLink: "",
+    repoLink: "#",
+    liveLink: "#",
   },
   {
     name: "Web3 Kickstarer",
     description:
-      "Crowdfunding paltform except it's on the Ethereum blockchain. Log in with Metamask, view all fundraising campaigns on the chain, create your own campaign, or donate ETH to one of the existing ones.",
+      "Crowdfunding paltform except it's on the Ethereum blockchain. View all fundraising campaigns on the chain. Create your own campaign or donate ETH to one of the existing ones.",
     tags: [
       {
         name: "React",
@@ -270,11 +274,11 @@ const projects = [
       },
     ],
     image: kickstarter,
-    repoLink: "",
-    liveLink: "",
+    repoLink: "#",
+    liveLink: "#",
   },
   {
-    name: "3DT-Shirt",
+    name: "3DT Shirts",
     description:
       "Customize a 3D t-shirt model. Choose a color and upload your own logo or texture. Or use text prompts to generate logos and textures with the integrated AI tool. Download after finishing customization.",
     tags: [
@@ -296,8 +300,8 @@ const projects = [
       },
     ],
     image: shirts3d,
-    repoLink: "",
-    liveLink: "",
+    repoLink: "#",
+    liveLink: "#",
   },
   {
     name: "Job Huntsman",
@@ -309,17 +313,17 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Expo",
+        name: "RapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "RapidAPI",
-        color: "pink-text-gradient",
+        name: "Expo",
+        color: "orange-text-gradient",
       },
     ],
     image: jobHuntsman,
-    repoLink: "",
-    liveLink: "",
+    repoLink: "#",
+    liveLink: "#",
   },
 ];
 

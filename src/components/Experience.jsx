@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[70%] h-[70%] object-contain rounded-full"
+            className="w-[90%] h-[90%] object-contain rounded-full"
           />
         </div>
       }
@@ -35,7 +35,7 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
-          className="text-secondary text-[16px] font-semibold"
+          className="text-secondary text-[18px] font-semibold"
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -46,7 +46,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[16px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -60,8 +60,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>Experience</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Work</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Work</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Experience</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

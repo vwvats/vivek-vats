@@ -80,8 +80,8 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Portfolio</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <p className={`${styles.sectionSubText} `}>Projects</p>
+        <h2 className={`${styles.sectionHeadText}`}>Portfolio</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -89,8 +89,9 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These projects showcase the breath and depth of my experience. Each
-          one is described briefly with links to live demons and source code.
+          A sampling of my endeavors that showcase the breadth and depth of my
+          experience. Each one is described briefly with links to live demos and
+          source code.
         </motion.p>
       </div>
 

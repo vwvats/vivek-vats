@@ -1,4 +1,3 @@
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { motion } from "framer-motion";
@@ -9,13 +8,24 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>Technologies</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Skills</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Skills</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Technologies
+        </h2>
       </motion.div>
-      <div className="flex flex-row flex-wrap justify-center gap-10 green-pink-gradient mt-20 p-5 rounded-[20px]">
-        {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+      <div className="flex flex-row flex-wrap justify-center gap-10 green-pink-gradient mt-20 p-10 rounded-[20px]">
+        {technologies.map((tech) => (
+          <div
+            className={`w-28 h-28 ${
+              tech.name === "Three JS" ? "p-1" : "p-3"
+            } rounded-xl bg-black`}
+            key={tech.name}
+          >
+            <img
+              src={tech.icon}
+              className="h-[100%] w-[100%]"
+              title={tech.name}
+            />
           </div>
         ))}
       </div>

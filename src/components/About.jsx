@@ -39,8 +39,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Overview</p>
-        <h2 className={styles.sectionHeadText}>About</h2>
+        <p className={styles.sectionSubText}>About</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
@@ -51,8 +51,8 @@ const About = () => {
         cross-platform mobile, and blockchain applications. Have contributed to
         all aspects of software products - design, development, testing,
         deployment, maintenance - in both enterprise & consumer domains. My
-        primary areas of expertise are web and mobile frontends with TypeScript,
-        React, and Node being the technologies I’m most proficient in.
+        primary areas of expertise are web & mobile frontends and Node, React, &
+        TypeScript are the technologies I’m most proficient in.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
