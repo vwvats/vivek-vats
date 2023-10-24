@@ -75,7 +75,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
 
-      <div className="w-fit mx-auto mt-8 text-black font-semibold text-lg">
+      <div className="w-fit mx-auto mt-8">
         <a
           href={resume}
           download="vivek-vats-resume"
@@ -83,8 +83,14 @@ const Experience = () => {
           rel="noreferrer"
         >
           <button className="flex justify-between items-center green-pink-gradient px-6 py-3 rounded-[10px]">
-            <img src={download} alt="download sign" className="w-8 h-8 mr-5" />
-            <span>Download Resume</span>
+            <img
+              src={download}
+              alt="download sign"
+              className="md:w-10 md:h-10 w-6 h-6 mr-4"
+            />
+            <p className="md:text-lg text-base text-black font-semibold">
+              Download Resume
+            </p>
           </button>
         </a>
       </div>

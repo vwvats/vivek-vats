@@ -89,7 +89,7 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          A sampling of my endeavors that showcase the breadth and depth of my
+          A few samples of my work that showcase the breadth and depth of my
           experience. Each one is described briefly with links to live demos and
           source code.
         </motion.p>
