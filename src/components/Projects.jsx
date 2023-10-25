@@ -26,7 +26,7 @@ const ProjectCard = ({
       }}
     >
       <motion.div
-        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+        variants={fadeIn("down", "spring", index * 0.5, 0.75)}
         className="bg-tertiary p-5 rounded-2xl"
       >
         <div className="relative w-full h-[230px]">
@@ -63,6 +63,7 @@ const ProjectCard = ({
           </div>
           <p className="mt-2 text-secondary text-[15px]">{description}</p>
         </div>
+
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
