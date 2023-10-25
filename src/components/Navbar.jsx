@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="ml-2 text-white text-[20px] font-medium cursor-pointer">
+          <p className="ml-2 text-white text-[20px] font-semibold cursor-pointer">
             Vivek Vats
           </p>
         </Link>

@@ -38,8 +38,11 @@ const Hero = () => {
             {greeting}!
           </h1>
           <p className={`${styles.heroSubText} mt-2 max-w-md`}>
-            I am <span className="text-[#915EFF]">Vivek</span> - a programmer
-            passionate about creating exceptional software.
+            I am{" "}
+            <span className="text-[#915EFF] text-[22px] font-semibold">
+              Vivek
+            </span>{" "}
+            - a programmer passionate about creating exceptional software.
           </p>
         </div>
       </div>

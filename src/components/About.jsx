@@ -48,9 +48,9 @@ const About = () => {
         Software Engineer with 5 years of experience building web,
         cross-platform mobile, and blockchain applications. Have contributed to
         all aspects of software products - design, development, testing,
-        deployment, maintenance - in both enterprise & consumer domains. My
-        primary areas of expertise are web & mobile frontends and Node, React, &
-        TypeScript are the technologies I’m most proficient in.
+        deployment, maintenance - in both enterprise and consumer domains. My
+        primary areas of expertise are web & mobile frontends and TypeScript,
+        Node, & React are the technologies I’m most proficient in.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
