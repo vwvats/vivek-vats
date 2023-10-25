@@ -16,9 +16,10 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Contact</p>
         <h3 className={styles.sectionHeadText}>Me</h3>
+
         <div className="flex items-center mt-10">
           <a href="tel:8149912611">
-            <div className="green-pink-gradient p-[2px] rounded-md">
+            <div className="green-pink-gradient p-[2px] rounded-md transition duration-500 ease-in-out hover:scale-105">
               <img
                 src={phone}
                 alt="phone icon"
@@ -28,9 +29,10 @@ const Contact = () => {
           </a>
           <p className="text-lg ml-5">(+91) 81499-12611</p>
         </div>
+
         <div className="flex items-center mt-10">
           <a href="mailto:contact@vivekvats.in" target="_blank">
-            <div className="green-pink-gradient p-[2px] rounded-md">
+            <div className="green-pink-gradient p-[2px] rounded-md transition duration-500 ease-in-out hover:scale-105">
               <img
                 src={mail}
                 alt="mail icon"
@@ -40,9 +42,10 @@ const Contact = () => {
           </a>
           <p className="text-lg ml-5">contact@vivekvats.in</p>
         </div>
+
         <div className="flex items-center mt-10">
           <a href="https://gitlab.com/vivekvats" target="_blank">
-            <div className="green-pink-gradient p-[2px] rounded-md">
+            <div className="green-pink-gradient p-[2px] rounded-md transition duration-500 ease-in-out hover:scale-105">
               <img
                 src={gitlab}
                 alt="gitlab icon"

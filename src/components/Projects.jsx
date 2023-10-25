@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { gitlab, live } from "../assets";
+import { gitlab, signal } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -51,7 +51,7 @@ const ProjectCard = ({
               className="flex justify-center items-center cursor-pointer ml-3 green-pink-gradient p-[1px] rounded-md"
             >
               <img
-                src={live}
+                src={signal}
                 alt="live demo"
                 className="w-8 h-8 bg-primary p-[5px] rounded-md"
               />

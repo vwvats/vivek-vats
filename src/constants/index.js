@@ -3,17 +3,19 @@ import {
   mobile,
   backend,
   blockchain,
-  javascript,
   typescript,
+  nextjs,
   reactjs,
   redux,
-  mui,
   tailwind,
+  mui,
   threejs,
+  graphql,
   nodejs,
   mongodb,
-  graphql,
+  postgres,
   jest,
+  storybook,
   cypress,
   tripadvisor,
   whatfix,
@@ -67,12 +69,12 @@ const services = [
 
 const technologies = [
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "React",
@@ -83,16 +85,20 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Material UI",
-    icon: mui,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "Material UI",
+    icon: mui,
+  },
+  {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
   },
   {
     name: "Node JS",
@@ -103,12 +109,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "GraphQL",
-    icon: graphql,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
     name: "Jest",
     icon: jest,
+  },
+  {
+    name: "Storybook",
+    icon: storybook,
   },
   {
     name: "Cypress",

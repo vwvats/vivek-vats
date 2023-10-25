@@ -1,9 +1,28 @@
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const greetings = ["Hello", "नमस्ते", "こんにちは", "Grüße"];
+  const [greeting, setGreeting] = useState(greetings[0]);
+  useEffect(() => {
+    const greetInterval = setInterval(() => {
+      const index =
+        greeting === "Hello"
+          ? 1
+          : greeting === "नमस्ते"
+          ? 2
+          : greeting === "こんにちは"
+          ? 3
+          : 0;
+      setGreeting(greetings[index]);
+    }, 1000);
+
+    return () => clearInterval(greetInterval);
+  }, [greeting]);
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -15,9 +34,12 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-[#915EFF]`}>Namaste!</h1>
+          <h1 className={`${styles.heroHeadText} text-[#915EFF]`}>
+            {greeting}!
+          </h1>
           <p className={`${styles.heroSubText} mt-2 max-w-md`}>
-            I'm Vivek and I build web, mobile, and blockchain applications
+            I am <span className="text-[#915EFF]">Vivek</span> - a programmer
+            passionate about creating exceptional software.
           </p>
         </div>
       </div>

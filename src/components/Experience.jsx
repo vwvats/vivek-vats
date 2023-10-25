@@ -19,7 +19,7 @@ const ExperienceCard = ({ experience }) => {
         background: "#1d1836",
         color: "#fff",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "18px solid #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[90%] h-[90%] object-contain rounded-full"
+            className="w-[80%] h-[80%] object-contain rounded-full"
           />
         </div>
       }
@@ -77,7 +77,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
 
-      <div className="w-fit mx-auto mt-8 green-pink-gradient p-[2px] rounded-xl">
+      <div className="w-fit mx-auto mt-8 green-pink-gradient p-[2px] rounded-xl transition duration-500 ease-in-out hover:scale-105">
         <a
           href={resume}
           download="vivek-vats-resume"
