@@ -12,39 +12,45 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl h-[440px]"
+        className="flex-[0.75] bg-black-100 p-8 rounded-2xl h-[480px]"
       >
         <p className={styles.sectionSubText}>Contact</p>
         <h3 className={styles.sectionHeadText}>Me</h3>
         <div className="flex items-center mt-10">
           <a href="tel:8149912611">
-            <img
-              src={phone}
-              alt="phone icon"
-              className="w-10 h-10 mr-5 green-pink-gradient rounded-md p-1"
-            />
+            <div className="green-pink-gradient p-[2px] rounded-md">
+              <img
+                src={phone}
+                alt="phone icon"
+                className="w-12 h-12 p-2 bg-primary rounded-md"
+              />
+            </div>
           </a>
-          <p className="text-lg">(+91) 81499-12611</p>
+          <p className="text-lg ml-5">(+91) 81499-12611</p>
         </div>
         <div className="flex items-center mt-10">
           <a href="mailto:contact@vivekvats.in" target="_blank">
-            <img
-              src={mail}
-              alt="mail icon"
-              className="w-10 h-10 mr-5 green-pink-gradient rounded-md p-1"
-            />
+            <div className="green-pink-gradient p-[2px] rounded-md">
+              <img
+                src={mail}
+                alt="mail icon"
+                className="w-12 h-12 p-2 bg-primary rounded-md"
+              />
+            </div>
           </a>
-          <p className="text-lg">contact@vivekvats.in</p>
+          <p className="text-lg ml-5">contact@vivekvats.in</p>
         </div>
         <div className="flex items-center mt-10">
           <a href="https://gitlab.com/vivekvats" target="_blank">
-            <img
-              src={gitlab}
-              alt="gitlab icon"
-              className="w-10 h-10 mr-5 green-pink-gradient rounded-md p-1"
-            />
+            <div className="green-pink-gradient p-[2px] rounded-md">
+              <img
+                src={gitlab}
+                alt="gitlab icon"
+                className="w-12 h-12 p-2 bg-primary rounded-md"
+              />
+            </div>
           </a>
-          <p className="text-lg">gitlab.com/vivekvats</p>
+          <p className="text-lg ml-5">gitlab.com/vivekvats</p>
         </div>
       </motion.div>
 

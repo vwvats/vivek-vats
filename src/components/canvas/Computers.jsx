@@ -24,8 +24,8 @@ const Computers = ({ isMobile }) => {
         // 0.7
         scale={isMobile ? 0.45 : 0.75}
         // [0, -3, -2.2]
-        position={isMobile ? [-2.5, -2.5, -1.5] : [0, -3.25, -1.5]}
-        rotation={isMobile ? [0, 0.1, -0.1] : [0, -0.6, -0.1]}
+        position={isMobile ? [1, -2, 0] : [0, -3.25, -1.5]}
+        rotation={isMobile ? [0, -0.8, -0.1] : [0, -0.6, -0.1]}
       />
     </mesh>
   );

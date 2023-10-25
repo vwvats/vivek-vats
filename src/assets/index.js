@@ -17,7 +17,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import mui from "./tech/mui.svg";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
+import threejs from "./tech/threejs.svg";
 import nodejs from "./tech/nodejs.png";
 import mongodb from "./tech/mongodb.png";
 import graphql from "./tech/graphql.png";

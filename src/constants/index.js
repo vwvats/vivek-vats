@@ -87,7 +87,7 @@ const technologies = [
     icon: mui,
   },
   {
-    name: "Tailwind",
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
@@ -179,7 +179,11 @@ const projects = [
       "Essential functionalities clone of Meta's social media platform. Create and comment on threads, create or join communities, search for threads or users, customize profile, and receive activities notifications.",
     tags: [
       {
-        name: "Next.js",
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS",
         color: "blue-text-gradient",
       },
       {
@@ -189,10 +193,6 @@ const projects = [
       {
         name: "Tailwind",
         color: "pink-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "orange-text-gradient",
       },
     ],
     image: threadsClone,
@@ -205,7 +205,11 @@ const projects = [
       "Essential functionalities clone of Dribbble. CRUD functionality for projects which are then displayed on your portfolio. Filter and Browse other users' portfolios and projects. Receive project recommendations.",
     tags: [
       {
-        name: "Next.js",
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS",
         color: "blue-text-gradient",
       },
       {
@@ -215,10 +219,6 @@ const projects = [
       {
         name: "Tailwind",
         color: "pink-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "orange-text-gradient",
       },
     ],
     image: dribbleClone,
@@ -235,7 +235,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "Node",
         color: "green-text-gradient",
       },
       {
@@ -269,7 +269,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Thirdweb",
+        name: "Hardhat",
         color: "orange-text-gradient",
       },
     ],
@@ -287,7 +287,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "Node",
         color: "green-text-gradient",
       },
       {

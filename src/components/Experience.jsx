@@ -33,20 +33,22 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-        <p
-          className="text-secondary text-[18px] font-semibold"
+        <h3 className="text-white md:text-[24px] text-[22px] font-semibold">
+          {experience.title}
+        </h3>
+        <span
+          className="text-secondary md:text-[18px] text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
           {experience.company_name}
-        </p>
+        </span>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[16px] pl-1 tracking-wider"
+            className="text-white-100 md:text-[16px] text-[15px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -75,22 +77,22 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
 
-      <div className="w-fit mx-auto mt-8">
+      <div className="w-fit mx-auto mt-8 green-pink-gradient p-[2px] rounded-xl">
         <a
           href={resume}
           download="vivek-vats-resume"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="flex justify-between items-center green-pink-gradient px-6 py-3 rounded-[10px]">
+          <button className="bg-tertiary flex justify-between items-center px-6 py-3 rounded-xl">
             <img
               src={download}
               alt="download sign"
               className="md:w-10 md:h-10 w-6 h-6 mr-4"
             />
-            <p className="md:text-lg text-base text-black font-semibold">
+            <span className="md:text-lg text-base text-white">
               Download Resume
-            </p>
+            </span>
           </button>
         </a>
       </div>

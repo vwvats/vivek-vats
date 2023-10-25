@@ -1,4 +1,4 @@
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -33,34 +33,32 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
         </div>
-
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <div className="flex mt-2 mb-3">
             <div
               onClick={() => window.open(repoLink, "_blank")}
-              className="flex justify-center items-center cursor-pointer"
+              className="flex justify-center items-center cursor-pointer green-pink-gradient p-[1px] rounded-md"
             >
               <img
                 src={gitlab}
                 alt="source code"
-                className="w-8 h-8 green-pink-gradient rounded-md p-1"
+                className="w-8 h-8 bg-primary p-[5px] rounded-md"
               />
             </div>
             <div
               onClick={() => window.open(liveLink, "_blank")}
-              className="flex justify-center items-center cursor-pointer ml-4"
+              className="flex justify-center items-center cursor-pointer ml-3 green-pink-gradient p-[1px] rounded-md"
             >
               <img
                 src={live}
                 alt="live demo"
-                className="w-8 h-8 green-pink-gradient rounded-md p-1"
+                className="w-8 h-8 bg-primary p-[5px] rounded-md"
               />
             </div>
           </div>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
-
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
@@ -80,7 +78,7 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Projects</p>
+        <p className={`${styles.sectionSubText}`}>Projects</p>
         <h2 className={`${styles.sectionHeadText}`}>Portfolio</h2>
       </motion.div>
 
