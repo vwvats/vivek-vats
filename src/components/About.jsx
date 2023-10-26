@@ -53,7 +53,7 @@ const About = () => {
         Node, & React are the technologies I’m most proficient in.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 place-content-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

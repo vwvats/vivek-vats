@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <Tilt
-      className="sm:w-[360px] w-full"
+      className="lg:w-[360px] md:w-[420px] w-full"
       options={{
         max: 45,
         scale: 1,
@@ -26,7 +26,7 @@ const ProjectCard = ({
       }}
     >
       <motion.div
-        variants={fadeIn("down", "spring", index * 0.5, 0.75)}
+        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
         className="bg-tertiary p-5 rounded-2xl"
       >
         <div className="relative w-full h-[230px]">
@@ -96,7 +96,7 @@ const Projects = () => {
         source code.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-8 place-content-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
