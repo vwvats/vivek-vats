@@ -9,8 +9,14 @@ import {
   Contact,
   StarsCanvas,
 } from "./components";
+import sal from "sal.js";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    sal();
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">

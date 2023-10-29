@@ -1,16 +1,16 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    <div
+      data-sal="slide-right"
+      data-sal-duration="500"
+      data-sal-delay={index * 250}
       className="w-full rounded-[20px] p-[2px] green-pink-gradient shadow-card"
     >
       <div
@@ -29,20 +29,22 @@ const ServiceCard = ({ index, title, icon }) => (
 
         <h3 className="text-white text-[20px] text-center">{title}</h3>
       </div>
-    </motion.div>
+    </div>
   </Tilt>
 );
 
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div data-sal="slide-down" data-sal-duration="500">
         <p className={styles.sectionSubText}>About</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
-      </motion.div>
+      </div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+      <div
+        data-sal="fade"
+        data-sal-duration="500"
+        data-sal-delay="250"
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Software Engineer with 5 years of experience building web,
@@ -51,7 +53,7 @@ const About = () => {
         deployment, maintenance - in both enterprise and consumer domains. My
         primary areas of expertise are web & mobile frontends and TypeScript,
         Node, & React are the technologies I’m most proficient in.
-      </motion.p>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10 place-content-center">
         {services.map((service, index) => (

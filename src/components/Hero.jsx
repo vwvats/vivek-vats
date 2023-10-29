@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { arrowDown } from "../assets";
 
 const Hero = () => {
   const greetings = ["Hello", "नमस्ते", "こんにちは", "Grüße"];
@@ -37,7 +37,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-[#915EFF]`}>
             {greeting}!
           </h1>
-          <p className={`${styles.heroSubText} mt-2 max-w-md`}>
+          <p
+            className={`${styles.heroSubText} mt-2 md:max-w-[90%] lg:max-w-md`}
+          >
             I am <span className="text-[#915EFF] font-semibold">Vivek</span> - a
             programmer passionate about creating exceptional software.
           </p>
@@ -46,21 +48,13 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-16 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-5 bottom-10 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
+          <img
+            src={arrowDown}
+            alt="arrow pointing down"
+            className="w-16 h-16 mb-1 animate-bounce"
+          />
         </a>
       </div>
     </section>

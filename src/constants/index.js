@@ -186,66 +186,118 @@ const projects = [
   {
     name: "Threads Clone",
     description:
-      "Essential functionalities clone of Meta's social media platform. Create and comment on threads, create or join communities, search for threads or users, customize profile, and receive activities notifications.",
+      "A clone with the essential functionalities of Meta's Threads. Create and comment on threads, create and join communities, search for threads/users, customize profile, and receive activities notification.",
     tags: [
       {
-        name: "Next",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "TS",
+        name: "Next.js",
         color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
       },
       {
         name: "MongoDB",
         color: "green-text-gradient",
       },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
     ],
     image: threadsClone,
-    repoLink: "#",
-    liveLink: "#",
+    repoLink: "https://gitlab.com/vivekvats/threads-clone",
+    liveLink: "https://threads-clone-r2uq8cc2a-vwvats.vercel.app",
   },
   {
     name: "Dribbble Clone",
     description:
-      "Essential functionalities clone of Dribbble. CRUD functionality for projects which are then displayed on your portfolio. Filter and Browse other users' portfolios and projects. Receive project recommendations.",
+      "A Dribbble like web app that allows users CRUD functionalities for projects. Login using Google to add projects. Projects are displayed on profile & home. Browse and filter other user portfolios & projects.",
     tags: [
       {
-        name: "Next",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "TS",
+        name: "Next.js",
         color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
       },
       {
         name: "Grafbase",
         color: "green-text-gradient",
       },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
     ],
     image: dribbleClone,
-    repoLink: "#",
-    liveLink: "#",
+    repoLink: "https://gitlab.com/vivekvats/dribble-clone",
+    liveLink: "https://dribble-clone-r55s3wohv-vwvats.vercel.app",
   },
   {
-    name: "Dall-E Clone",
+    name: "Kickstarer 3.0",
     description:
-      "Image generation tool powered by Open AI. Genrate photos with text phrases or click 'Suprise Me' to choose a random prompt. Share generated images on the public 'Community Showcase' page.",
+      "Crowdfunding paltform except it's on the Ethereum blockchain. View all fundraising campaigns on the chain. Connect wallet to create your own campaign or donate ETH to one of the existing ones.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Node",
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: kickstarter,
+    repoLink: "https://gitlab.com/vivekvats/web3-kickstarter",
+    liveLink: "https://web3-kickstarter.vercel.app",
+  },
+  {
+    name: "ThreeD Shirts",
+    description:
+      "Customize a 3D t-shirt model. Choose a color and upload your own logos and textures. Or use text prompts to generate logos and textures with the integrated AI tool. Download after customization.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: shirts3d,
+    repoLink: "https://gitlab.com/vivekvats/3dt",
+    liveLink: "https://3dt-git-main-vivekvats.vercel.app",
+  },
+  {
+    name: "Dall-E Clone",
+    description:
+      "Image generation with text tool powered by AI. Genrate photos with text prompts or use 'Suprise Me' to choose a random one. Generated a cool one? Share it on the public 'Community Showcase' page.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
@@ -258,60 +310,8 @@ const projects = [
       },
     ],
     image: dalleClone,
-    repoLink: "#",
-    liveLink: "#",
-  },
-  {
-    name: "Web3 Kickstarer",
-    description:
-      "Crowdfunding paltform except it's on the Ethereum blockchain. View all fundraising campaigns on the chain. Create your own campaign or donate ETH to one of the existing ones.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Solidity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Hardhat",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: kickstarter,
-    repoLink: "#",
-    liveLink: "#",
-  },
-  {
-    name: "3DT Shirts",
-    description:
-      "Customize a 3D t-shirt model. Choose a color and upload your own logo or texture. Or use text prompts to generate logos and textures with the integrated AI tool. Download after finishing customization.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: shirts3d,
-    repoLink: "#",
-    liveLink: "#",
+    repoLink: "https://gitlab.com/vivekvats/dalle-clone",
+    liveLink: "",
   },
   {
     name: "Job Huntsman",
@@ -332,8 +332,8 @@ const projects = [
       },
     ],
     image: jobHuntsman,
-    repoLink: "#",
-    liveLink: "#",
+    repoLink: "https://gitlab.com/vivekvats/job-huntsman",
+    liveLink: "",
   },
 ];
 

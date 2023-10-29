@@ -2,14 +2,11 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
-
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
 import { download, resume } from "../assets";
 
 const ExperienceCard = ({ experience }) => {
@@ -61,10 +58,10 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div data-sal="slide-down" data-sal-duration="500">
         <p className={`${styles.sectionSubText} text-center`}>Work</p>
         <h2 className={`${styles.sectionHeadText} text-center`}>Experience</h2>
-      </motion.div>
+      </div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
