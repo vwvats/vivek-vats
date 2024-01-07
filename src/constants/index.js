@@ -132,7 +132,7 @@ const experiences = [
     company_name: "Component.Fi",
     icon: component,
     iconBg: "#000",
-    date: "Sep 2022 - Apr 2023",
+    date: "Sep 2022 - Oct 2023",
     points: [
       "Led the frontend development of ‘Blueprint’ - a simulation platform for user-coded DeFi trading strategies.",
       "Planned, developed, and deployed a custom IDE that gives users a full-fledged Python environment in their web browsers.",
